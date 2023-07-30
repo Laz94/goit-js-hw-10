@@ -14,18 +14,17 @@ body {
 }
 
 .select-container {
-  padding: 20px 928px;
-  margin-left: -915px;
+  padding: 20px 10px;
 }
 
 .breed-select {
   /* position: relative; */
   opacity: 1;
-  /* transition: opacity 500ms ease; */
+  transition: opacity 500ms ease;
 }
 
 .breed-select.is-hidden {
-  /* position: absolute; */
+  position: absolute;
   opacity: 0;
 }
 
@@ -72,3 +71,5 @@ body {
 .breed-temperament > span {
   font-weight: 700;
 }
+
+
