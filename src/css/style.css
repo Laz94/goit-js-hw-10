@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  --ss-bg-color: #f2f2f2;
+  --ss-primary-color: #073f71;
+  --ss-font-color: #0d0d0d;
+  --ss-border-radius: 25px;
+  --ss-spacing-s: 10px;
+
+  background-color: var(--ss-bg-color);
+}
+
+.select-container {
+  padding: 20px 10px;
+}
+
+.breed-select {
+  /* position: relative; */
+  opacity: 1;
+  /* transition: opacity 500ms ease; */
+}
+
+.breed-select.is-hidden {
+  /* position: absolute; */
+  opacity: 0;
+}
+
+.cat-info {
+  display: flex;
+  gap: 35px;
+  position: relative;
+  padding: 20px 10px;
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
+.cat-info.is-hidden {
+  position: absolute;
+  opacity: 0;
+}
+
+.desc-wrapper {
+  padding: 10px 20px;
+}
+
+.breed-img {
+  border-radius: var(--ss-border-radius);
+  opacity: 1;
+  transition: opacity 500ms ease;
+}
+
+.breed-img.is-hidden {
+  opacity: 0;
+}
+
+.breed-name {
+  color: var(--ss-primary-color);
+}
+
+.breed-description {
+  color: var(--ss-font-color);
+}
+
+.breed-temperament {
+  color: var(--ss-font-color);
+}
+
+.breed-temperament > span {
+  font-weight: 700;
+}
